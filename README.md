@@ -1,2 +1,2 @@
-# AI_Medical_Care_2
- 
+# AI Medical Care
+## Graduation Project

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.aimedicalcare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.AIMedicalCare">
+        <activity
+            android:name=".DiagnoseResultActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".TextDiagnoseActivity"
+            android:label="@string/diagnose_with_text"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".DiagnoseActivity"
+            android:label="@string/diagnose"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".RegisterDoctorActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".RegisterPatientActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+    </application>
+
+</manifest>

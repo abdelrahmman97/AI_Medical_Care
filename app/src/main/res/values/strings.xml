@@ -24,7 +24,7 @@
 
     <!-- Side Nav -->
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_patient">Patient</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="password">Password</string>
 
@@ -39,8 +39,19 @@
     <string name="done">Done</string>
     <string name="cancel">Cancel</string>
     <string name="recording">Recording</string>
-    <string name="write_down_your_feelings">Write down your feelings</string>
     <string name="result">Result</string>
+    <string name="write_down_your_feelings">Write down your feelings</string>
+
+    <string name="save">Save</string>
+    <string name="generate">Generate</string>
+    <string name="disease">Disease</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="treatments">Treatments</string>
+    <string name="medical_history">Medical History</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="add_old_medical_history">Add old medical history</string>
+    <string name="view_old_medical_history">View medical history</string>
 
     <string name="lorem"><b>Symptoms</b><br />
         Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -69,7 +80,5 @@ dolores et ea rebum. Stet clita kasd gubergren, no
 sea takimata sanctus est Lorem ipsum dolor sit
 amet. Lorem ipsum dolor sit amet. At vero eos et
 accusam et justo duo dolores et ea rebum.</string>
-    <string name="save">Save</string>
-    <string name="medical_history">Medical History</string>
 
 </resources>

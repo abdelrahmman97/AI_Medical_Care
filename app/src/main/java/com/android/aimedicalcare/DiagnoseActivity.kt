@@ -15,8 +15,7 @@ class DiagnoseActivity : AppCompatActivity() {
         val btnCncl = findViewById<View>(R.id.cancel_diagnose_btn) as Button
 
         btnCncl.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            onBackPressed()
         }
 
         btnDone.setOnClickListener {

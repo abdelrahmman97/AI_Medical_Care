@@ -10,8 +10,14 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.AIMedicalCare">
         <activity
+            android:name=".AddOldMedicalHistoryActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
+            android:name=".GenerateQRCodeActivity"
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
+        <activity
             android:name=".MedicalHistoryRecordActivity"
-            android:theme="@style/Theme.AIMedicalCare.NoActionBar"/>
+            android:theme="@style/Theme.AIMedicalCare.NoActionBar" />
         <activity
             android:name=".MedicalHistoryActivity"
             android:theme="@style/Theme.AIMedicalCare.NoActionBar" />

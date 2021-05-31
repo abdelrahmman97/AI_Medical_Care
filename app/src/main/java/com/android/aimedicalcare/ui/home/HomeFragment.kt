@@ -16,6 +16,7 @@ import com.android.aimedicalcare.TextDiagnoseActivity
 import com.android.aimedicalcare.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
+
     private lateinit var homeViewModel: HomeViewModel
     private var _binding: FragmentHomeBinding? = null
 

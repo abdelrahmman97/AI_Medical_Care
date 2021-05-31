@@ -14,8 +14,7 @@ class TextDiagnoseActivity : AppCompatActivity() {
         val doneBtn = findViewById<View>(R.id.done_diagnose)
 
         cnclBtn.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            onBackPressed()
         }
 
         doneBtn.setOnClickListener {

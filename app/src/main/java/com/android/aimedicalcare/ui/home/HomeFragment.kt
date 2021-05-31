@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.android.aimedicalcare.DiagnoseActivity
+import com.android.aimedicalcare.MedicalHistoryActivity
 import com.android.aimedicalcare.TextDiagnoseActivity
 import com.android.aimedicalcare.databinding.FragmentHomeBinding
 
@@ -41,6 +42,7 @@ class HomeFragment : Fragment() {
         val goToDiagnose: Button = binding.goToDiagnose
         val goTpTextDiagnose: Button = binding.diagnoseTextBtn
         val scanQrCode: Button = binding.scanQrBtn
+        val pndngDiagnose: Button = binding.checkPendingDiagnoseBtn
 
         goToDiagnose.setOnClickListener {
             val intent = Intent(activity, DiagnoseActivity::class.java)
@@ -49,6 +51,11 @@ class HomeFragment : Fragment() {
 
         goTpTextDiagnose.setOnClickListener {
             val intent = Intent(activity, TextDiagnoseActivity::class.java)
+            activity?.startActivity(intent)
+        }
+
+        pndngDiagnose.setOnClickListener {
+            val intent = Intent(activity, MedicalHistoryActivity::class.java)
             activity?.startActivity(intent)
         }
 

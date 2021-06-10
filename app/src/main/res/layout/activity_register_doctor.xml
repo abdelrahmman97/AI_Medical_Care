@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/_F5F7FB"
     android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-    tools:context=".RegisterPatientActivity">
+    tools:context=".RegisterDoctorActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout3"

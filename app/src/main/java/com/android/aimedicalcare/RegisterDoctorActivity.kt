@@ -8,7 +8,7 @@ import android.view.View
 class RegisterDoctorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_patient)
+        setContentView(R.layout.activity_register_doctor)
 
         val btnSignIn = findViewById<View>(R.id.button4)
         val btnRgistr = findViewById<View>(R.id.button5)

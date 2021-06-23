@@ -8,8 +8,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/go_to_diagnose"
-        android:layout_width="195dp"
-        android:layout_height="195dp"
+        android:layout_width="192dp"
+        android:layout_height="187dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_btn_diagnose"
         android:text="@string/diagnose"
@@ -73,4 +73,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/diagnose_text_btn"
         app:layout_constraintTop_toBottomOf="@+id/go_to_diagnose" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
